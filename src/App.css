@@ -1,0 +1,245 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.black {
+  color: black !important;
+}
+.white {
+  color: white !important;
+}
+.bg-appnav {
+  background-color: #ffac3d !important;
+}
+.opacity-90{
+  opacity: 0.9!important;
+}
+.opacity-95{
+  opacity: 0.95!important;
+}
+.opacity-100{
+  opacity: 1!important;
+}
+
+
+#checkbox_circle {
+  height: 10px;
+}
+.bg-random {
+  background-color: #181c23;
+}
+.bg-black{
+  background-color: black;
+}
+.random_page {
+  /* background: url("http://denysthemes.com/demos/html/indiega/assets/images/game-slide-img-1.jpg"); */
+  min-height: calc(100vh - 200px);
+
+}
+.gameinfo_page {
+  background: url("https://res.cloudinary.com/dkmk9tdwx/image/upload/v1653801036/11_imqta0.jpg");
+    min-height: calc(100vh - 200px);
+}
+.nk-blog-grid{
+  min-height: calc(100vh - 300px);
+}
+
+.loadingGif {
+  width: 100%;
+  height: 0;
+  padding-bottom: 101%;
+  position: relative;
+}
+.loadingGifIFrame {
+  position: absolute;
+}
+.game_cards {
+  max-height: 1100px;
+  overflow: auto;
+}
+.game_des {
+  max-height: 300px;
+  overflow: auto;
+}
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+
+
+
+
+
+.angled-img {
+  max-width: 375px !important;
+}
+.youplay-slider {
+  max-width: 375px !important;
+}
+.fv1 {
+  height: 150px !important;
+}
+
+@media (min-width: 576px) {
+  .angled-img {
+    max-width: 450px !important;
+  }
+  .youplay-slider {
+    max-width: 450px !important;
+  }
+  .fv1 {
+    height: 200px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .angled-img {
+    max-width: 550px !important;
+  }
+  .youplay-slider {
+    max-width: 550px !important;
+  }
+  .fv1 {
+    height: 250px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .angled-img {
+    max-width: 500px !important;
+  }
+  .youplay-slider {
+    max-width: 500px !important;
+  }
+  .fv1 {
+    height: 300px !important;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .angled-img {
+    max-width: 600px !important;
+  }
+  .youplay-slider {
+    max-width: 600px !important;
+  }
+  .fv1 {
+    height: 350px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .angled-img {
+    max-width: 700px !important;
+  }
+  .youplay-slider {
+    max-width: 700px !important;
+  }
+  .fv1 {
+    height: 400px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .hide_for_lg {
+    display: none !important;
+  }
+    #info_col{
+    order: 0;
+  }
+  #des_col{
+    order: 1;
+  }
+}
+
+
+.background_cover_1{
+    font-family: roboto, sans-serif;
+  background: url("https://res.cloudinary.com/dkmk9tdwx/image/upload/v1653801035/8_tu1uha.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background_cover_2{
+    font-family: roboto, sans-serif;
+  background: url("https://res.cloudinary.com/dkmk9tdwx/image/upload/v1653801036/11_imqta0.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -1,0 +1,86 @@
+/*! CSS Used from: Embedded */
+svg:not(:root).svg-inline--fa{overflow:visible;}
+.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em;}
+.svg-inline--fa.fa-w-14{width:.875em;}
+/*! CSS Used from: https://html.nkdev.info/goodgames/assets/vendor/bootstrap/dist/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+h2{margin-top:0;mank-blog-gridrgin-bottom:.5rem;}
+p{margin-top:0;margin-bottom:1rem;}
+a{color:#007bff;text-decoration:none;background-color:transparent;}
+a:hover{color:#0056b3;text-decoration:underline;}
+img{vertical-align:middle;border-style:none;}
+svg{overflow:hidden;vertical-align:middle;}
+.h4,h2{margin-bottom:.5rem;font-weight:500;line-height:1.2;}
+h2{font-size:2rem;}
+.h4{font-size:1.5rem;}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-3,.col-md-6{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+@media (min-width:768px){
+.col-md-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+@media (min-width:992px){
+.col-lg-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;}
+}
+.float-right{float:right!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+img{page-break-inside:avoid;}
+h2,p{orphans:3;widows:3;}
+h2{page-break-after:avoid;}
+}
+/*! CSS Used from: https://html.nkdev.info/goodgames/assets/css/goodgames.min.css */
+a{color:#dd163b;transition:.15s color;}
+a:focus,a:hover{color:#dd163b;}
+::-moz-selection{color:#fff;background-color:#313947;}
+::selection{color:#fff;background-color:#313947;}
+.nk-gap{display:block;height:15px;}
+.nk-gap::after,.nk-gap::before{content:"";display:block;clear:both;}
+p{margin-bottom:1.5rem;}
+.h4,h2{margin-bottom:1.5rem;font-family:Montserrat,sans-serif;font-weight:600;color:#fff;text-transform:uppercase;}
+h2{font-size:2.35rem;}
+.h4{font-size:1.32rem;}
+.bg-main-2{background-color:#a714b9!important;}
+.bg-main-5{background-color:#1464d2!important;}
+.bg-main-6{background-color:#ef9e2b!important;}
+.nk-btn{display:inline-block;padding:9px 19px;font-family:Montserrat,sans-serif;font-size:.87rem;font-weight:600;line-height:1.2;text-align:center;text-transform:uppercase;white-space:nowrap;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:0;transition:.15s all;}
+.nk-btn,.nk-btn:active,.nk-btn:focus,.nk-btn:hover{color:#fff;text-decoration:none;}
+.nk-btn-color-dark-3{background-color:#2f3541;border-color:#16181e;border-style:solid;}
+.nk-btn-color-dark-3:hover{background-color:#414958;border-color:#505a6d;}
+.nk-btn-color-dark-3:active{background-color:#505a6d;border-color:#5f6a82;}
+.nk-btn-hover-color-main-1:hover{background-color:#dd163b;border-color:#a5102c;}
+.nk-btn-hover-color-main-1:active{background-color:#c11334;border-color:#8a0e25;}
+.nk-btn-rounded{border-radius:4px;}
+::-moz-placeholder{color:inherit;opacity:.5;}
+:-ms-input-placeholder{color:inherit;opacity:.5;}
+::placeholder{color:inherit;opacity:.5;}
+.nk-blog-post{margin-bottom:30px;}
+.nk-post-title{margin-bottom:10px;}
+.nk-post-title>a{color:inherit;text-decoration:none;transition:.15s color;}
+.nk-post-title>a:hover{color:#dd163b;}
+.nk-post-img{position:relative;display:block;overflow:hidden;border-radius:4px;transition:opacity .15s ease-in-out;}
+.nk-post-img img{width:100%;height:auto;transition:transform .15s ease-in-out;transform:scale(1);will-change:transform;}
+.nk-blog-post:not(.nk-blog-post-single):hover .nk-post-img img{transform:scale(1.05);}
+.nk-post-img:hover{opacity:.8;}
+.nk-post-img .nk-post-comments-count{position:absolute;display:block;right:10px;bottom:10px;min-width:33px;height:29px;padding:0 8px;font-weight:600;line-height:29px;text-align:center;vertical-align:text-top;background-color:#fff;border-radius:50%;}
+.nk-post-img .nk-post-comments-count,.nk-post-img .nk-post-comments-count:active,.nk-post-img .nk-post-comments-count:focus,.nk-post-img .nk-post-comments-count:hover{color:#181c23;text-decoration:none;}
+.nk-post-img .nk-post-comments-count::after{content:"";position:absolute;display:inline-block;bottom:-2px;left:65%;width:0;height:0;vertical-align:middle;border-top:9px solid #fff;border-right:6px solid transparent;border-left:6px solid transparent;transform:rotate(-30deg);}
+.nk-post-categories{float:right;max-width:100%;font-size:1rem;}
+.nk-post-categories span{display:inline-block;padding:2px 19px;margin-top:6px;color:#fff;text-decoration:none;white-space:nowrap;background-color:#2f3541;border-radius:4px;}
+.nk-post-img .nk-post-categories{position:absolute;top:10px;left:0;}
+.nk-post-img .nk-post-categories span:first-of-type{border-top-left-radius:0;border-bottom-left-radius:0;}
+.nk-post-date{margin-top:5px;font-size:.9em;color:#a0a7ab;}
+.nk-post-date svg{margin-right:6px;font-size:1rem;}
+.nk-post-text::after,.nk-post-text::before{content:"";display:block;clear:both;}
+.nk-post-text>p:last-child{margin-bottom:0;}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
