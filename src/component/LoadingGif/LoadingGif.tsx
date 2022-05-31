@@ -8,7 +8,7 @@ function LoadingGif() {
       </p>
       <div className="loadingGif">
         <img
-          src="https://i.giphy.com/media/Qrca6tBIdqXYXhnB4v/giphy.webp"
+          src="/loading.gif"
           width="100%"
           height="100%"
 

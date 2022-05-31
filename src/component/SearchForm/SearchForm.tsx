@@ -140,7 +140,7 @@ function SearchForm(props: Props) {
       dateFilter,
       selectedThemes
     );
-    console.log(query);
+    //console.log(query);
     getSearchResult(query);
   }
   function handleKeyDownForInput(e: any) {
