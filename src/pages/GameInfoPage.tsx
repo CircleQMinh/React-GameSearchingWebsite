@@ -11,9 +11,21 @@ function GameInfoPage() {
   var gameId = params.id;
   console.log(gameId);
   const isnum = /^\d+$/.test((gameId ??= "a"));
-  if (!isnum) {
-    navigate("/random");
+  if (!isnum || isNaN(Number.parseInt(gameId))) {
+    navigate("/error");
   }
+
+  useEffect(() => {
+    if(gameId==undefined){
+       navigate("/error");
+    }
+    else{
+      if (!isnum || isNaN(Number.parseInt(gameId))) {
+        navigate("/error");
+      }
+    }
+  });
+
   return (
     <Fragment>
       <Header></Header>

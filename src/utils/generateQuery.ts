@@ -81,3 +81,44 @@ export function generateQuerySearchGames(
 export function randomInRange(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
+
+export function generateQueryGamesByGameMode(offset:number,gamemode:number) {
+  const { query_game_short } = IGDBQuery;
+  var query =
+    query_game_short +
+    "limit 12;" +
+    `offset ${
+      offset * 12
+    }; where rating >= 50&category =0& game_modes =${gamemode};sort rating desc; `;
+  return query;
+}
+export function generateQueryGamesByPlatform(offset: number, platform: number) {
+  const { query_game_short } = IGDBQuery;
+  var query =
+    query_game_short +
+    "limit 12;" +
+    `offset ${
+      offset * 12
+    }; where rating >= 50 &category =0& platforms.platform_family =${platform};sort rating desc; `;
+  return query;
+}
+export function generateQueryGamesByGenre(offset: number, genres: number) {
+  const { query_game_short } = IGDBQuery;
+  var query =
+    query_game_short +
+    "limit 12;" +
+    `offset ${
+      offset * 12
+    }; where rating >= 50 &category =0& genres =${genres};sort rating desc; `;
+  return query;
+}
+export function generateQueryGamesByTheme(offset: number, theme: number) {
+  const { query_game_short } = IGDBQuery;
+  var query =
+    query_game_short +
+    "limit 12;" +
+    `offset ${
+      offset * 12
+    }; where rating >= 50 &category =0& themes =${theme};sort rating desc; `;
+  return query;
+}
